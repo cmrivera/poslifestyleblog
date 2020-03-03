@@ -1,6 +1,6 @@
 ---
 deployment:
-  tasks: -export DEPLOYPATH=/home/user/public_html/
+  tasks: -export DEPLOYPATH=/home/user/poslifestyleblog/
     -/bin/cp hivindex.html $DEPLOYPATH
     -/bin/cp spanishhivindex.html $DEPLOYPATH
     -/bin/cp Aboutme.html $DEPLOYPATH
@@ -8,4 +8,3 @@ deployment:
     -/bin/cp sobremi.html $DEPLOYPATH
     -/bin/cp whatishiv.html $DEPLOYPATH
     -/bin/cp whatishiv.less $DEPLOYPATH
-    -/bin/cp
